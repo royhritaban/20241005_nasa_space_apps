@@ -2,7 +2,7 @@ import folium
 import pandas as pd
 
 # Read the CSV file into a pandas DataFrame
-csv_file = "./gb_dataset.csv"  # Replace with your CSV file name
+csv_file = "./human_refined_data_uk.csv"  # Replace with your CSV file name
 data = pd.read_csv(csv_file)
 
 # Initialize the map centered around the United Kingdom
