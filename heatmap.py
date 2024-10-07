@@ -5,7 +5,7 @@ import pandas as pd
 from folium.plugins import HeatMap
 
 # Read the CSV file into a pandas DataFrame
-csv_file = "./combined_dataset_uk.csv"  # Replace with your CSV file name
+csv_file = "./shops_data.csv"  # Replace with your CSV file name
 data = pd.read_csv(csv_file)
 
 # Initialize the map centered around the United Kingdom
